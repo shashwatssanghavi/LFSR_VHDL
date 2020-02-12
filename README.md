@@ -1,3 +1,2 @@
 # LFSR_VHDL
-8 bit LFSR for random number generation
-Following is a VHDL description for 8 bits
+The following is an 8 bit pseudo random number generator

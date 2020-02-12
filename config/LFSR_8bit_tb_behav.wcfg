@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="LFSR_8bit_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="LFSR_8bit_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="148000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="168"></NameColumnWidth>
+      <ValueColumnWidth column_width="69"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/LFSR_8bit_tb/clk_in" type="logic">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LFSR_8bit_tb/rstn_in" type="logic">
+      <obj_property name="ElementShortName">rstn_in</obj_property>
+      <obj_property name="ObjectShortName">rstn_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LFSR_8bit_tb/seed_in" type="array">
+      <obj_property name="ElementShortName">seed_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seed_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LFSR_8bit_tb/pn_out" type="logic">
+      <obj_property name="ElementShortName">pn_out</obj_property>
+      <obj_property name="ObjectShortName">pn_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LFSR_8bit_tb/random_vector" type="array">
+      <obj_property name="ElementShortName">random_vector[7:0]</obj_property>
+      <obj_property name="ObjectShortName">random_vector[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LFSR_8bit_tb/half_period" type="other">
+      <obj_property name="ElementShortName">half_period</obj_property>
+      <obj_property name="ObjectShortName">half_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LFSR_8bit_tb/clk_cycle" type="other">
+      <obj_property name="ElementShortName">clk_cycle</obj_property>
+      <obj_property name="ObjectShortName">clk_cycle</obj_property>
+   </wvobject>
+</wave_config>
